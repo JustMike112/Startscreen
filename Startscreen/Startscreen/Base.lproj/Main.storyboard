@@ -18,28 +18,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Walley" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wbm-DF-BOI">
-                                <rect key="frame" x="146" y="62" width="83" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4SJ-vX-GeP">
-                                <rect key="frame" x="0.0" y="154" width="375" height="251"/>
+                                <rect key="frame" x="0.0" y="154" width="375" height="425"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="DqZ-La-OX7" kind="embed" id="dP2-dR-po0"/>
                                 </connections>
                             </containerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4K-Ds-aWl">
-                                <rect key="frame" x="84" y="425" width="206" height="43"/>
+                                <rect key="frame" x="84" y="604" width="206" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <state key="normal" title="Bank Koppelen">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welkom_picture_title.png" translatesAutoresizingMaskIntoConstraints="NO" id="LvA-JP-mSh">
+                                <rect key="frame" x="0.0" y="18" width="375" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -72,23 +69,27 @@
             <objects>
                 <viewController storyboardIdentifier="page2" title="page2" id="oTp-5v-kvA" customClass="page2" customModule="Startscreen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Len-ha-y6s">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="251"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="425"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duidelijke feedback in de vorm van beeld, audio en trillingen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6QD-75-kfP">
-                                <rect key="frame" x="63" y="96" width="248" height="58"/>
+                                <rect key="frame" x="63" y="295" width="248" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Altijd feedback" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vyO-y4-G7k">
-                                <rect key="frame" x="121" y="67" width="132" height="21"/>
+                                <rect key="frame" x="116" y="266" width="142" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welkom_picture_page_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="AY1-sC-FeQ">
+                                <rect key="frame" x="0.0" y="86" width="375" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="ztf-r3-Jdc"/>
@@ -96,30 +97,34 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F1i-pW-zNY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1660" y="516.79160419790105"/>
+            <point key="canvasLocation" x="1660" y="656.22188905547227"/>
         </scene>
         <!--Page3-->
         <scene sceneID="Tuz-xk-kWO">
             <objects>
                 <viewController storyboardIdentifier="page3" id="04u-25-1zS" customClass="page3" customModule="Startscreen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e9i-v6-9vZ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="251"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="425"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contant geld nodig? Regel dit gemakkelijk via de app" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATo-RT-4UL">
-                                <rect key="frame" x="74" y="104" width="227" height="43"/>
+                                <rect key="frame" x="74" y="304" width="227" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Geld Opnemen" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iy5-jd-yuy">
-                                <rect key="frame" x="121" y="75" width="133" height="21"/>
+                                <rect key="frame" x="117" y="275" width="140" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welkom_picture_page_3.png" translatesAutoresizingMaskIntoConstraints="NO" id="2eC-Et-eLf">
+                                <rect key="frame" x="0.0" y="84" width="375" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Tqp-0w-RTF"/>
@@ -127,37 +132,47 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7vv-85-yDX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2376.8000000000002" y="516.79160419790105"/>
+            <point key="canvasLocation" x="2373.5999999999999" y="655.32233883058473"/>
         </scene>
         <!--page1-->
         <scene sceneID="hnJ-H5-M2O">
             <objects>
                 <viewController storyboardIdentifier="page1" title="page1" id="mUa-O8-pZS" customClass="page1" customModule="Startscreen" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z8Z-9E-41Y">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="251"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="425"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Betaal door middel van het ontgrendelen van uw mobiel." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Pc-Ua-432">
-                                <rect key="frame" x="64" y="99" width="246" height="53"/>
+                                <rect key="frame" x="64" y="302" width="246" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Veilig en Snel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5GP-Tn-cTO">
-                                <rect key="frame" x="128" y="70" width="119" height="21"/>
+                                <rect key="frame" x="122" y="273" width="131" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="welkom_picture_page_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="lAM-jD-8kw">
+                                <rect key="frame" x="0.0" y="84" width="375" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Il9-aG-nVC"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WNn-yv-xY2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="948" y="516.79160419790105"/>
+            <point key="canvasLocation" x="941.60000000000002" y="657.12143928035982"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="welkom_picture_page_1.png" width="375" height="145"/>
+        <image name="welkom_picture_page_2.png" width="375" height="137"/>
+        <image name="welkom_picture_page_3.png" width="375" height="136"/>
+        <image name="welkom_picture_title.png" width="375" height="57"/>
+    </resources>
 </document>

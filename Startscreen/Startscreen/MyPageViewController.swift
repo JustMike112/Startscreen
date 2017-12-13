@@ -62,8 +62,8 @@ class MyPageViewController: UIPageViewController, UIPageViewControllerDelegate, 
     }
     
     func configurePageControl() {
-        // The total number of pages that are available is based on how many available colors we have.
-        pageControl = UIPageControl(frame: CGRect(x: 0,y: 185,width: UIScreen.main.bounds.width,height: 50))
+        // Create a page control
+        pageControl = UIPageControl(frame: CGRect(x: 0,y: 360,width: UIScreen.main.bounds.width,height: 50))
         self.pageControl.isUserInteractionEnabled = false
         self.pageControl.numberOfPages = orderedViewControllers.count
         self.pageControl.currentPage = 0
