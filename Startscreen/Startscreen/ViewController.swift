@@ -14,11 +14,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var containerView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        containerView.isUserInteractionEnabled = false
-        bankButton.backgroundColor = UIColor.darkGray
-        bankButton.layer.cornerRadius = 17
-        bankButton.layer.borderWidth = 1
+         containerView.isUserInteractionEnabled = false
+        bankButton.backgroundColor = UIColor.blue
+        bankButton.layer.cornerRadius = 19
         
     }
     
